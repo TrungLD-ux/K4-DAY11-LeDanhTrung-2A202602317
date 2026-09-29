@@ -1,0 +1,9 @@
+round: calib
+slice: C0
+sha256: beee6de350ed5d15e02011ccc12533c35fdcf253dce032b189df1aa32c0e2d48
+code: BEEE-6DE3
+locked_at: 2026-09-28T16:51:06+07:00
+shapes: box=8, polygon=3
+prefill_kept: 0
+prefill_edited: 0
+new: 8

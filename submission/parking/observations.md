@@ -1,6 +1,6 @@
 # Quan sát vạch ô đỗ
 
-- Hai vạch `parking_line` đã vẽ (mô tả vị trí trong ảnh): TODO
-- Một vạch/dấu sơn hoặc biên **không** vẽ, và vì sao: TODO
-- Polygon `free_space` dừng ở đâu; có phần bị che nào không: TODO
-- Ca chưa chắc cần hỏi người soát (nếu không có, ghi “không có”): TODO
+- Hai vạch `parking_line` đã vẽ (mô tả vị trí trong ảnh): Hai vạch sơn trắng song song giới hạn hai bên của ô đỗ xe nằm ở khu vực trung tâm khung hình.
+- Một vạch/dấu sơn hoặc biên **không** vẽ, và vì sao: Không vẽ vạch kẻ phân làn hướng dẫn lối xe chạy ngang qua bãi đỗ. Lý do: Theo Guideline, phải phân biệt rõ vạch chia ô đỗ (`parking_line`) với vạch lối xe chạy thông thường; task này chỉ gán nhãn vạch cấu thành nên ô đỗ xe.
+- Polygon `free_space` dừng ở đâu; có phần bị che nào không: Polygon dừng lại khít ở gờ vỉa hè và viền bao quanh gầm các xe ô tô đang đỗ. Có những vùng mặt đường bị thân xe đỗ phía trước che khuất tầm nhìn, tôi đã dừng polygon lại ngay viền xe (chỉ khoanh vùng bề mặt thực sự nhìn thấy, không tự ý suy đoán vẽ xuyên qua vùng bị che).
+- Ca chưa chắc cần hỏi người soát (nếu không có, ghi “không có”): Với những vạch sơn ô đỗ bị mờ, bong tróc hoặc bị bùn đất che lấp đứt đoạn một khoảng ngắn, tôi nên vẽ một đường polyline kéo thẳng nối qua luôn hay phải ngắt thành các polyline ngắn bám đúng theo phần sơn còn nhìn thấy?
