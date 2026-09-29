@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+1,2026-09-28,"Xử lý lỗi box R6 nhỏ hơn 40px","Từ chối box R6","Reference vẽ lỏng lẻo ép vật dưới 40px lên trên 40px","escalated"
+2,2026-09-28,"Xử lý nhãn R2 của xe đạp","Bác bỏ lỗi Missing","Reference vẽ ẩu chỉ khoanh bánh xe, nhãn của tôi khoanh toàn bộ xe","open"
+3,2026-09-28,"Xử lý đối tượng L1 áo đỏ dắt xe","Bảo vệ nhãn độc lập","Reference gộp chung Pedestrian và Bike là sai","open"
+4,2026-09-28,"Xử lý đối tượng R5 thiếu trong reference","Bổ sung nhãn R5","Xe ở xa có chiều cao >40px không được phép bỏ qua","open"

@@ -1,1 +1,38 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,L1,L_only,SPURIOUS,E0_reference_defect,P1,guideline,R01,"Người áo đỏ đang đứng dắt xe bên cạnh, không ngồi trên yên. Reference gộp chung thành Bike là sai.",keep_with_reason,1.0,"Bảo vệ nhãn Pedestrian và Bike riêng biệt."
+calib,C0,adasind_019560.jpg,L8,L_only,SPURIOUS,E0_reference_defect,P1,guideline,R01,"Khung L8 là xe máy đỗ phía sau, bị người đi xe đạp che khuất. Reference đã bỏ sót vật thể này.",keep_with_reason,1.0,"Bảo vệ nhãn Bike nền đã đánh occluded."
+r1_craft,B3-center,adasind_152940.jpg,R5,R_only,MISSING,E0_reference_defect,P2,annotator,R03,"Xe ở xa có chiều cao 61px (>40px) nên không được bỏ qua.",keep_with_reason,1.0,"Bổ sung nhãn R5."
+r1_craft,B3-center,adasind_152940.jpg,R6,R_only,MISSING,E0_reference_defect,P2,guideline,R03,"Vẽ viền ôm sát thực tế thì xe chỉ có kích thước 25x35.5px (<40px) nên phải bỏ qua. Reference vẽ box lỏng lẻo ép lên 43px là sai.",keep_with_reason,1.0,"Bảo vệ quyết định bỏ qua vật < 40px."
+r1_craft,B3-center,adasind_167700.jpg,L4,L_only,WRONG_CLASS,E0_reference_defect,P2,guideline,R04,"Xe van chở hàng (mini truck), gán Truck là hợp lý hơn Car.",keep_with_reason,1.0,"Bảo vệ nhãn Truck."
+r1_craft,B3-center,adasind_167700.jpg,L6,L_only,SPURIOUS,E0_reference_defect,P2,guideline,R01,"Xe lam nằm sát mép trái ảnh, Reference đã bỏ sót.",keep_with_reason,1.0,"Bảo vệ nhãn ThreeWheeler sát mép."
+r1_craft,B3-center,adasind_167700.jpg,R2,R_only,MISSING,E0_reference_defect,P2,guideline,R01,"Reference (R2) vẽ sai khi chỉ bọc bánh xe trước. Nhãn của tôi khoanh toàn bộ xe là đúng.",keep_with_reason,1.0,"Bác bỏ lỗi Missing, Reference quá ẩu."
+r1_craft,B3-center,adasind_167700.jpg,R8,R_only,MISSING,E0_reference_defect,P2,annotator,R03,"Xe lấp ló phía sau có kích thước 67px (>40px).",keep_with_reason,1.0,"Sẽ quay lại CVAT bổ sung."
+r2_qa,B3-center,adasind_152940.jpg,L1+R3,LR_noM,MISSING,,,,R01,,,,,
+r2_qa,B3-center,adasind_152940.jpg,R5+M9,RM_noL,MISSING,,,,R03,,,,,
+r2_qa,B3-center,adasind_152940.jpg,R6,RM_noL,MISSING,,,,R03,,,,,
+r2_qa,B3-center,adasind_152940.jpg,M3,LM_noR,SPURIOUS,,,,R01,,,,,
+r2_qa,B3-center,adasind_152940.jpg,M4,LM_noR,SPURIOUS,,,,R01,,,,,
+r2_qa,B3-center,adasind_152940.jpg,M7,LM_noR,SPURIOUS,,,,R01,,,,,
+r2_qa,B3-center,adasind_152940.jpg,M8,LM_noR,SPURIOUS,,,,R01,,,,,
+r2_qa,B3-center,adasind_167700.jpg,L9+R6,LR_noM,MISSING,,,,R01,,,,,
+r3_diag,B3-center,adasind_152940.jpg,L1+R3,LR_noM,MISSING,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_152940.jpg,R5+M9,RM_noL,MISSING,E0_reference_defect,P2,qa,R03,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_152940.jpg,M3,LM_noR,SPURIOUS,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_167700.jpg,M5,LM_noR,SPURIOUS,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_152940.jpg,R6,R_only,MISSING,E0_reference_defect,P2,qa,R03,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_152940.jpg,M4,M_only,SPURIOUS,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_152940.jpg,M7,M_only,SPURIOUS,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_152940.jpg,M8,M_only,SPURIOUS,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_167700.jpg,L9+R6,LR_noM,MISSING,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_167700.jpg,L5+R7,LR_noM,MISSING,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_167700.jpg,L3+R9,LR_noM,MISSING,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_167700.jpg,L4,L_only,SPURIOUS,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_167700.jpg,L6,L_only,SPURIOUS,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_167700.jpg,R2+M7,RM_noL,MISSING,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_167700.jpg,R4+M4,RM_noL,MISSING,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_167700.jpg,R8+M9,RM_noL,MISSING,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_167700.jpg,M8,M_only,SPURIOUS,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_212280.jpg,L3+R3,LR_noM,MISSING,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_212280.jpg,M3,M_only,SPURIOUS,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_212280.jpg,M5,M_only,SPURIOUS,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
+r3_diag,B3-center,adasind_212280.jpg,M6,M_only,SPURIOUS,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"

@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,25,Bỏ sót phương tiện ở khoảng cách xa,Kiểm tra độ chính xác cơ bản khi xe đi thẳng
+front,hard,25,Lỗi đứt track ID ở vùng seam trước và loá sáng,Đánh giá vật thể chuyển giao từ camera trước sang hai bên
+rear,normal,25,Sai kích thước box do xe sau bám đuôi,Kiểm tra độ khít tight-fit của phương tiện phía sau
+rear,hard,25,Mất dấu vật thể do góc mù hoặc occlusion,Đánh giá tính liên tục khi xe máy lách lên từ phía sau
+left,normal,25,Sai phân loại hoặc sót người đi bộ sát lề,Đảm bảo bao quát đối tượng di chuyển song song bên trái
+left,hard,25,Lỗi Duplicate ID khi vật thể vắt ngang seam trái,Méo fisheye ở rìa ảnh gây khó ghép nối track đa camera
+right,normal,25,Bỏ sót xe hai bánh chen lên từ lề phải,Kiểm tra độ phủ với các đối tượng nhỏ cặp sát thân xe
+right,hard,25,Gán sai hành vi và mất đối tượng ở mép ảnh,Xác minh vùng chồng lấp phải khi góc nhìn bị biến dạng méo mó
