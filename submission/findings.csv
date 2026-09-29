@@ -7,14 +7,14 @@ r1_craft,B3-center,adasind_167700.jpg,L4,L_only,WRONG_CLASS,E0_reference_defect,
 r1_craft,B3-center,adasind_167700.jpg,L6,L_only,SPURIOUS,E0_reference_defect,P2,guideline,R01,"Xe lam nằm sát mép trái ảnh, Reference đã bỏ sót.",keep_with_reason,1.0,"Bảo vệ nhãn ThreeWheeler sát mép."
 r1_craft,B3-center,adasind_167700.jpg,R2,R_only,MISSING,E0_reference_defect,P2,guideline,R01,"Reference (R2) vẽ sai khi chỉ bọc bánh xe trước. Nhãn của tôi khoanh toàn bộ xe là đúng.",keep_with_reason,1.0,"Bác bỏ lỗi Missing, Reference quá ẩu."
 r1_craft,B3-center,adasind_167700.jpg,R8,R_only,MISSING,E0_reference_defect,P2,annotator,R03,"Xe lấp ló phía sau có kích thước 67px (>40px).",keep_with_reason,1.0,"Sẽ quay lại CVAT bổ sung."
-r2_qa,B3-center,adasind_152940.jpg,L1+R3,LR_noM,MISSING,,,,R01,,,,,
-r2_qa,B3-center,adasind_152940.jpg,R5+M9,RM_noL,MISSING,,,,R03,,,,,
-r2_qa,B3-center,adasind_152940.jpg,R6,RM_noL,MISSING,,,,R03,,,,,
-r2_qa,B3-center,adasind_152940.jpg,M3,LM_noR,SPURIOUS,,,,R01,,,,,
-r2_qa,B3-center,adasind_152940.jpg,M4,LM_noR,SPURIOUS,,,,R01,,,,,
-r2_qa,B3-center,adasind_152940.jpg,M7,LM_noR,SPURIOUS,,,,R01,,,,,
-r2_qa,B3-center,adasind_152940.jpg,M8,LM_noR,SPURIOUS,,,,R01,,,,,
-r2_qa,B3-center,adasind_167700.jpg,L9+R6,LR_noM,MISSING,,,,R01,,,,,
+r2_qa,B3-center,adasind_152940.jpg,L1+R3,LR_noM,MISSING,,,,R01,,,,
+r2_qa,B3-center,adasind_152940.jpg,R5+M9,RM_noL,MISSING,,,,R03,,,,
+r2_qa,B3-center,adasind_152940.jpg,R6,RM_noL,MISSING,,,,R03,,,,
+r2_qa,B3-center,adasind_152940.jpg,M3,LM_noR,SPURIOUS,,,,R01,,,,
+r2_qa,B3-center,adasind_152940.jpg,M4,LM_noR,SPURIOUS,,,,R01,,,,
+r2_qa,B3-center,adasind_152940.jpg,M7,LM_noR,SPURIOUS,,,,R01,,,,
+r2_qa,B3-center,adasind_152940.jpg,M8,LM_noR,SPURIOUS,,,,R01,,,,
+r2_qa,B3-center,adasind_167700.jpg,L9+R6,LR_noM,MISSING,,,,R01,,,,
 r3_diag,B3-center,adasind_152940.jpg,L1+R3,LR_noM,MISSING,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
 r3_diag,B3-center,adasind_152940.jpg,R5+M9,RM_noL,MISSING,E0_reference_defect,P2,qa,R03,"Diag log",keep_with_reason,1.0,"Diag"
 r3_diag,B3-center,adasind_152940.jpg,M3,LM_noR,SPURIOUS,E0_reference_defect,P2,qa,R01,"Diag log",keep_with_reason,1.0,"Diag"
